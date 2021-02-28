@@ -2,6 +2,11 @@
 
 2. To install single node, `helm install --namespace minio --generate-name minio/minio`.
 
+3. Set up port forwarding:
+```
+kubectl port-forward minio-1614514927-79f68b4b97-wtngg 9000 --namespace minio
+```
+
 3. Some commands:
 
 ```
