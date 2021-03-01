@@ -1,5 +1,7 @@
 1. Go to https://github.com/minio/charts
 
+1. Configure cluster access for GKE: https://cloud.google.com/kubernetes-engine/docs/how-to/cluster-access-for-kubectl#generate_kubeconfig_entry
+
 1. To install single node, `helm install --namespace minio --generate-name minio/minio`.
 
 1. Set up port forwarding:
